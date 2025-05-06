@@ -27,5 +27,15 @@ ul.appendChild(li3);
 section.appendChild(ul)
 mainContainer.appendChild(section);
 
+const sectionDress=document.createElement('section');
+sectionDress.innerHTML=`
+<h1>My Awesome DOM de baba</h1>
+    <ul>
+        <li>Jalali set</li>
+        <li>Shafayet</li>
+        <li>Bonobash</li> 
+    </ul>
 
+`
 
+mainContainer.appendChild(sectionDress);
